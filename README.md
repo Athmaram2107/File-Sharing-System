@@ -49,20 +49,22 @@ FILE-SHARING-SYSTEM/
 
 ---
 
-## ⚙️ Compilation & Execution
 
-## Compile
+
+## complilation and execution
+
+// compile
 
 ```bash
 g++ server/server.cpp -o server_app 
 g++ client/client.cpp -o client_app
 
 
-
-## Run server and client
+// Run Server and Client
 
 ./server_app
 ./client_app
+
 
 🧪 Testing Scenarios:
 
@@ -76,7 +78,7 @@ Check that user credentials are preserved in users.txt
 Ensure thread safety using mutex locks
 
 
-## Client UI:
+// Client UI:
 
 1. Register
 2. Login
