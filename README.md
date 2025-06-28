@@ -51,17 +51,21 @@ FILE-SHARING-SYSTEM/
 
 ## ⚙️ Compilation & Execution
 
-## step 1: Compile
+## Compile
 
 ```bash
 g++ server/server.cpp -o server_app 
 g++ client/client.cpp -o client_app
 
-## Step 2: Run server and client
+
+
+## Run server and client
+
 ./server_app
 ./client_app
 
 🧪 Testing Scenarios:
+
 Register new users
 Handle login success/failure
 Upload existing and new files
@@ -73,6 +77,7 @@ Ensure thread safety using mutex locks
 
 
 ## Client UI:
+
 1. Register
 2. Login
 3. Exit
