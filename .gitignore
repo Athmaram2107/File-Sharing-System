@@ -1,0 +1,7 @@
+# Ignore runtime/generated folders and binaries
+downloads/
+files/
+*.out
+*.exe
+client_app
+server_app
